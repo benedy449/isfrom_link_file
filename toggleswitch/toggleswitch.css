@@ -6,7 +6,7 @@ Author:     Benedy
 :root {
   --box: 73.5px;
   --w: 116px;
-  --h: 32.5px;
+  --h: 32px;
 }
 
 .switch {
@@ -22,8 +22,7 @@ Author:     Benedy
     left:0;
     width:var(--w);
     height:var(--h);
-    background:url('./overlay@2xb.png') no-repeat 0 0;
-    filter: grayscale(100%);
+    /*background:url('./overlay@2xb.png') no-repeat 0 0;*/
     z-index:9;
 }
 .switch span.switched {

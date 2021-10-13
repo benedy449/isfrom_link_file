@@ -36,7 +36,7 @@ Thanks:     @steve228uk for prop/var mods and plugin suggestion
                         check.prop('checked', 'checked');
                         settings.onChangeOn.call(obj);
                     } else {
-                        value.stop().animate({left: -44}, 150, 'linear').addClass('off');
+                        value.stop().animate({left: -39}, 150, 'linear').addClass('off');
                         check.prop('checked', '');
                         settings.onChangeOff.call(obj);
                     }
