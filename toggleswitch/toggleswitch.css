@@ -1,0 +1,44 @@
+/* 
+Title:      Toggle Button Switch
+URL:        http://github.com/benedy449/isfrom_link_file.git
+Author:     Benedy
+*/
+:root {
+  --box: 73.5px;
+  --w: 116px;
+  --h: 32.5px;
+}
+
+.switch {
+    position:relative;
+    width:var(--box);
+    height:var(--h);
+    overflow:hidden;
+    cursor:pointer;
+}
+.switch .overlay {
+    position:absolute;
+    top:0;
+    left:0;
+    width:var(--w);
+    height:var(--h);
+    background:url('./overlay@2xb.png') no-repeat 0 0;
+    filter: grayscale(100%);
+    z-index:9;
+}
+.switch span.switched {
+    display:block;
+    position:absolute;
+    top:0;
+    left:0;
+    width:var(--w);
+    height:var(--h);
+    background:#d9d9d9 url('./switch@x2s2.png') no-repeat 0 0;
+    z-index:8;
+}
+.switch span.off {
+    left:-34px;
+}
+.switch input {
+    display:none;
+}
